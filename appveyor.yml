@@ -5,9 +5,9 @@ build_script:
   - npm run build
 
 deploy_script:
-  - git config --global user.email "you@example.com"
-  - git config --global user.name "Your Name"
+  - git config --global user.email "bigw199412@gmail.com"
+  - git config --global user.name "Joynie12"
   - git checkout -b deploy
   - git add .
   - git commit -m "Deploy to GitHub Pages"
-  - git push --force --quiet "https://${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}@github.com/Joynie12/https://github.com/Joynie12/dom.git" deploy:gh-pages
+  - git push --force --quiet "https://${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}@github.com/Joynie12/https://github.com/Joynie12/dom.git" HEAD:refs/heads/gh-pages
