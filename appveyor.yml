@@ -1,4 +1,4 @@
-os: Windows
+os: Linux
 
 build_script:
   - npm install
