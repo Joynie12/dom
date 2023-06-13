@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .cell {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  .character {
+    width: 100%;
+    height: auto;
+  }
